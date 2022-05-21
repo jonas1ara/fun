@@ -8,10 +8,10 @@ _En la carpeta sources se agrega [F#-Books]() que son libros que se tomaron en c
 
 | # | Titulo |
 |---| ----- | -------- | ---------- |
-|01|[F#-Cheatsheet](https://leetcode.com/problems/two-sum/) | 
-|02|[Expert-F#](https://leetcode.com/problems/add-two-numbers/) | 
-|03|[Learning F# Functional DS and Algorithms](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 
-|04|[F# for Machine Learning](https://leetcode.com/problems/two-sum/) | 
-|05|[F# for Quantitative Finance](https://leetcode.com/problems/two-sum/) | 
-|06|[Real world Functional programming with F#](https://leetcode.com/problems/two-sum/) | 
+|01|[F#-Cheatsheet](https://leetcode.com/problems/two-sum/) 
+|02|[Expert-F#](https://leetcode.com/problems/add-two-numbers/) 
+|03|[Learning F# Functional DS and Algorithms](https://leetcode.com/problems/longest-substring-without-repeating-characters/) 
+|04|[F# for Machine Learning](https://leetcode.com/problems/two-sum/) 
+|05|[F# for Quantitative Finance](https://leetcode.com/problems/two-sum/) 
+|06|[Real world Functional programming with F#](https://leetcode.com/problems/two-sum/) 
 
