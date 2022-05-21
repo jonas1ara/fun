@@ -4,10 +4,10 @@ _Desde que empece con el mundo de .NET en mí camino por el mundo de IA me tope 
 
 ## Recursos  
 
-_En la carpeta sources se agrega [F#-Books]() que son libros que se tomaron en cuenta para trabajar en este repositorio. _
+_En la carpeta sources se agrega [F#-Books]() que son libros que se tomaron en cuenta para trabajar en este repositorio._
 
 | # | Titulo |
-|---| ----- | -------- | ---------- |
+|---| ----------------------------- |
 |01|[F#-Cheatsheet](https://leetcode.com/problems/two-sum/) 
 |02|[Expert-F#](https://leetcode.com/problems/add-two-numbers/) 
 |03|[Learning F# Functional DS and Algorithms](https://leetcode.com/problems/longest-substring-without-repeating-characters/) 
