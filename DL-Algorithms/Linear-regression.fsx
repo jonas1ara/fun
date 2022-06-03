@@ -48,7 +48,7 @@ let fittingRTO =
         [|0. .. 11.|] 
         |> Array.map (fun x -> x,fittingFunctionLinearRTO x)
     Chart.Line(fit)
-    |> Chart.withTraceName "LS through origin"
+    |> Chart.withTraceName "LS a traves del origen"
 
 let simpleLinearChart =
     [rawChart;fittingLS;fittingRTO;fittingRobust;] 
