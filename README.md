@@ -8,7 +8,7 @@ _Desde que empece con el mundo de .NET en mí camino por el mundo de IA me tope 
 
 ![](/Sources/fsharp.png)
 
-_Debes saber que FSharp puede ser compilado al Common Intermediate Language y puede ser interpretado para trabajar con Scripts usando la extensión .fsx, el interprete de FSharp(dotnet fsi) y con Jupyter Notebooks en el navegador o VS Code. _
+_Debes saber que FSharp puede ser compilado al Common Intermediate Language y puede ser interpretado para trabajar con Scripts usando la extensión .fsx, el interprete de FSharp(dotnet fsi) y con Jupyter Notebooks en el navegador o VS Code._
 
 ## Recursos  
 
