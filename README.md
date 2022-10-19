@@ -1,25 +1,11 @@
 # Fun.fs
 
-![](/Sources/fsharp.svg)
+### Primer curso de FSharp en español
 
-_Primer curso de FSharp en español_
+![](/Sources/fsharp.svg)
 
 ## Trabajando con FSharp
 
-![](/Sources/fsharp.png)
 
-_Debes saber que FSharp puede ser compilado al Common Intermediate Language y puede ser interpretado para trabajar con Scripts usando la extensión .fsx, el interprete de FSharp(dotnet fsi) y con Jupyter Notebooks en el navegador o VS Code._
 
-## Recursos  
-
-_En la carpeta sources se agrega [F#-Books](https://github.com/Jonas-Lara/Fun.fs/tree/master/Sources/F%23-Books) que son libros que se tomaron en cuenta para trabajar en este repositorio._
-
-| # | Titulo |
-|---| -----------------------------|
-|01|[F# Cheatsheet](https://github.com/Jonas-Lara/Fun.fs/blob/master/Sources/F%23-Books/0.-F%23-Cheatsheet.pdf) 
-|02|[Expert F#](https://github.com/Jonas-Lara/Fun.fs/blob/master/Sources/F%23-Books/1.-Expert-F%23.pdf) 
-|03|[Real world Functional programming with F#](https://github.com/Jonas-Lara/Fun.fs/blob/master/Sources/F%23-Books/5.-Real-World-Functional-programming-with-F%23.pdf) 
-|04|[Learning F# Functional DS and Algorithms](https://github.com/Jonas-Lara/Fun.fs/blob/master/Sources/F%23-Books/2.-Learning-F%23-Functional-Data-Structures-and-Algorithms.pdf) 
-|05|[F# for Machine Learning](https://github.com/Jonas-Lara/Fun.fs/blob/master/Sources/F%23-Books/3.-F%23-for-Machine-Learning-Essentials.pdf/) 
-|06|[F# for Quantitative Finance](https://github.com/Jonas-Lara/Fun.fs/blob/master/Sources/F%23-Books/4.-F%23-for-Quantitative-Finance.pdf) 
 
