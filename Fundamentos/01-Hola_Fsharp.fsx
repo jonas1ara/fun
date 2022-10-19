@@ -1,12 +1,13 @@
 open System
 
-let HolaMundo() =  
+let HolaYouTube() =  
     printf "Dime tú nombre: "
 
     let nombre = Console.ReadLine()
     
-    printf "Hola %s desde FSharp" nombre 
+    printfn "Hola %s, bienvenido a FSharp" nombre
+    // Console.WriteLine( "Hola {0} desde FSharp", nombre);
 
-HolaMundo()
+HolaYouTube()
 
 Console.ReadKey() |> ignore
