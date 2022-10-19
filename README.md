@@ -2,7 +2,7 @@
 
 ![](/Sources/fsharp.svg)
 
-_Desde que empece con el mundo de .NET en mí camino por el mundo de IA me tope un lenguaje funcional llamado [F#](https://fsharp.org/) con un potencial enorme, creado por un academico de Cambridge para Microsoft Research, a un año de conocerlo sigue teniendo el mismo problema; poca comunidad que proporcione ejemplos reales de uso en ML, DL y Matemáticas, frameworks que nacen y no despegan, entre este abanico de posibilidad hay joyas como las de FSharp Labs, ML.NET (Que ayuda a los desarrolladores abstrayendo algunas de las complejidades y así resolver problemas a nivel de escenario), TorchSharp que es un Wrapper para LibTorch la librería que impulsa PyTorch y por supuesto DiffSharp una librería para la diferenciación automática, otro gran problema es que en español la comunidad es practicamente nula y para esto se inicia este repositorio._
+_Primer curso de FSharp en español_
 
 ## Trabajando con FSharp
 
