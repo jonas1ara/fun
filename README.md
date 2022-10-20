@@ -1,6 +1,6 @@
 # Fun.fs
 
-### Primer curso de FSharp en español
+### Primer [curso](https://www.youtube.com/channel/UCPb7qmZXP9J2lFlLmuY3I4g) en YouTube de FSharp en español
 
 ![](/Sources/fsharp.svg)
 
