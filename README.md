@@ -60,6 +60,14 @@ sudo apt install dotnet6
 
 _Si estas en windows o macOS, ve a este [enlace](https://dotnet.microsoft.com/en-us/download) para descargar el sdk_
 
+#### Se recomienda encarecidamente el uso de [VS Code](https://code.visualstudio.com/Download) para este repositorio, es multiplaforma y extensible
+
+_En las extensiones de Visual Studio Code busca: "Ionide for F#", funciona para el autocompletado y depuración de F#_
+
+![](/Sources/Ionide.png)
+
+
+
 
 
 
