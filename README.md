@@ -22,10 +22,9 @@
   - Uso de operadores
 
 **4.- Flujo en F#**
-  - If
-  - Elif
-  - If
-
+  - If, elif y else 
+  - Bucles
+  
 **5.- Funciones en F#**
   - Pipelines
 
