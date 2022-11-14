@@ -5,7 +5,7 @@ let HolaYouTube() =
 
     let nombre = Console.ReadLine()
     
-    printfn "Hola %s, bienvenido a FSharp" nombre
+    printfn "Hola %s, bienvenido al curso FSharp en YouTube" nombre
     // Console.WriteLine( "Hola {0} desde FSharp", nombre);
 
 HolaYouTube()
