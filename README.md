@@ -1,6 +1,6 @@
 # fun (palabra reservada para funciones anonimas en F#)
 
-### Primer [curso]([https://www.youtube.com/channel/UCPb7qmZXP9J2lFlLmuY3I4g](https://www.youtube.com/channel/UCi-dr1Oe8oNtjlyjlPBx5gg) de FSharp en español para YouTube
+### Primer [curso]([https://www.youtube.com/channel/UCPb7qmZXP9J2lFlLmuY3I4g](https://www.youtube.com/channel/UCi-dr1Oe8oNtjlyjlPBx5gg)) de FSharp en español para YouTube
 
 ![](/Sources/fsharp.svg)
 
