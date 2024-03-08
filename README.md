@@ -6,47 +6,6 @@
 
 ## Temas del curso
 
-**1.- Introducción**
-  - ¿Qué es F#? 
-  -  La vida vista desde un lenguaje funcional
-
-**2.- Prework**
-  - Instalación y preparación del entorno
-  - Diferencias entre F# interpretado y compilado
-
-**3.- Datos en F#**
-  - Tipos de datos
-  - Variables no mutables y mutables
-  - Impresión de datos
-  - Uso de operadores
-
-**4.- Flujo en F#**
-  - If, elif y else 
-  - Bucles
-  
-**5.- Funciones en F#**
-  - Pipelines
-
-**6.- Estructuras de datos en F#**
-  - Enums
-  - Structs
-  - Colecciones
-  - Listas
-  - Tuplas
-  - Record
-  - Sequences
-  - Maps
-  - Generics
-
-**7.- Programación con objetos** 
-  - Objetos
-  - Clases
-  - Interfaces
-
-**8.- Módulos**
-
-**9.- Programación asíncrona**
-
 
 ## Prework 
 
