@@ -12,7 +12,7 @@
 _Para usar fsharp es necesario instalar el sdk de dotnet, si usas Ubuntu 22.04 en Desktop o WSL2 basta con copiar y pegar el siguiente comando:_
 
 ```
-sudo apt install dotnet6
+sudo apt install dotnet-sdk-8.0
 ```
 
 _Si estas en windows o macOS, ve a este [enlace](https://dotnet.microsoft.com/en-us/download) para descargar el sdk_
