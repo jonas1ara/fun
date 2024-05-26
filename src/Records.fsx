@@ -1,15 +1,17 @@
-// type Turkey =
-//     {
-//         Name : string
-//         Size : float
-//     }
-// let c1 : Turkey = { Name = "Clucky"; Size = 10.0 }
+type Turkey =
+    {
+        Name : string
+        Size : float
+    }
 
 type Chicken =
     {
         Name : string
         Size : float
     }
+
+
+
     static member Create (name, size) =
         // Validation logic
         if size <= 0.0 then
