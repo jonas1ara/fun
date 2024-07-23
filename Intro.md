@@ -234,3 +234,7 @@ let myImportantWorkflow query =
 ```
 
 ## How Type inference works
+
+## Group by method
+
+## Choice type
