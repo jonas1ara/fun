@@ -235,6 +235,135 @@ let myImportantWorkflow query =
 
 ## How Type inference works
 
+With type annotation
+
+```fsharp
+let add2 (x:int) :int = x + 2 // int -> int
+            ^ type annotation (type comes AFTER parameter name)
+                 ^ type annotation
+```
+
+Without type annotations
+
+```fsharp
+let add3 x = x + 3 // int -> int
+```
+
+Use it
+
+```fsharp
+let doSomething f x = // (int -> string) -> int -> string
+    let y = f (x + 1)
+    "hello" + y
+
+let intToStr i = sprintf "%i" i // int -> string
+doSomething intToStr 42
+```
+
+Benefits of type inference
+ - Less typing
+ - Less noise, more logic
+
 ## Group by method
 
+C# Code 
+
+```csharp
+public IEnumerable <IGrouping<TKey, TSource>> GroupBy<TSource, TKey> (
+    IEnumerable<TSource> source,
+    Func<TSource, TKey> keySelector
+    )
+{
+    ...
+} 
+```
+
+F# Code
+
+```fsharp
+let GroupBy source keySelector =
+    ...
+```
+
+F# does support OO-style classes but we generally use the "composable" type system for most situations
+
+Record types aka "AND" types
+
+Immutable record definition
+
+```fsharp
+[<Struct>]
+type Thing = { Id:int ; Description: string }
+```
+
+Record constuction
+
+```fsharp
+let aThing = { Id:1; Description = "a thing" }
+```
+
+Copy a record using "with"
+
+```fsharp
+let anotherThing = {aThing with id=2} // Thing
+```
+
+Anonymous record construction -- no separate type definition needed
+
+```fsharp
+let aContact = {| Name = "Scott"; Email="scott@example.com" |} //
+```
+
 ## Choice type
+
+Discriminated unions aka "choice" types aka "OR" types
+
+```fsharp
+type PrimaryColor = Red | Yellow | Blue
+```
+
+Each choice can have data associated with it
+
+```fsharp
+type RGB = {R:int; G:int; B:int}
+
+type Color = 
+    | Primary of PrimaryColor
+    | RGB of RGB
+    | Named of string
+```
+
+Composing with Type (like lego)
+
+Some requirements:
+
+We accept three payment methods:
+ - Cash
+ - PayPal
+ - Card
+
+For Cash we don't need any extra information
+For PayPal we need an email address
+For Card we need a card type and card number
+
+How would you implement this?
+
+```fsharp
+module PaymentDomain =
+
+    type EmailAddress = string
+    type CardType = Visa | Mastercard
+    type CardNumber = string
+
+    type CreditCardInfo = {
+        CardType : CardType
+        CardType : CardNumber
+    }
+
+    type PaymentMethod =
+        | Cash
+        | PayPal of EmailAddress
+        | Card of CreditCardInfo
+```
+
+
